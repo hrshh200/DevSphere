@@ -1,0 +1,124 @@
+.homeStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainText {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+}
+
+.mainText h1 {
+    font-size: 120px;
+    font-weight: 600;
+    background-color: #4158D0;
+    background-image: linear-gradient(53deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.mainText h2 {
+    margin-top: 0.25em;
+    font-size: 120px;
+    line-height: 1;
+    font-weight: 600;
+    background-color: white;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.labelStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.innerlabelStyle {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.innerPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 48rem; */
+    background: #000;
+    padding-left: 25em;
+    padding-right: 25em;
+}
+
+.innerPara p {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-size: 1.35rem;
+    color: rgb(209 213 219);
+    font-weight: 400;
+}
+
+.buttonDisplay {
+    margin: 3em;
+    padding-left: 35em;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5em;
+}
+.talkButton{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width:150px;
+    height:40px;
+}
+.serviceButton{
+    background-color:black;
+    outline: 2px solid white;
+    color: fffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    width:150px;
+    height:40px;
+}
+
+.talkButton:hover {
+    background-color: #4158D0;
+    background-image: linear-gradient(53deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
+}
+
+.talkButton:active {    
+    background-color: white;
+}
+
+.talkButton:focus {
+    outline: 2px solid white;
+}
+
+.serviceButton:hover {
+    background-color: #4158D0;
+    background-image: linear-gradient(53deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: white;
+}
+
+.serviceButton:active {    
+    background-color: white;
+}
+
+.serviceButton:focus {
+    outline: 2px solid white;
+}
