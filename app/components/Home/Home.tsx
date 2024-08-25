@@ -1,5 +1,6 @@
 import styles from "./Home.module.css";
 import Dashboard from "../Dashboard/Dashboard";
+import AboutUs from "../Aboutus/Aboutus";
 
 const HomeComponent = () => {
     return (
@@ -42,6 +43,7 @@ const HomeComponent = () => {
                     </div>
                 </div>
             </div>
+            <AboutUs />
         </div>
     );
 };
